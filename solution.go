@@ -1,5 +1,10 @@
 package solution
 
-func GetMessage() string {
-	return ""
-}
+import (
+		
+	"github.com/kyokomi/emoji/v2"
+)
+func main() {
+	Message := emoji.Sprint("Hello :map:!")
+	emoji.Println(Message)
+	}
