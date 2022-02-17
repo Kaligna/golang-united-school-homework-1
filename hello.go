@@ -5,6 +5,6 @@ import (
 	"github.com/kyokomi/emoji/v2"
 )
 func main() {
-	Message := emoji.Sprint("Hello :world_map:")
+	Message := emoji.Sprint("Hello :map:!")
 	emoji.Println(Message)
 	}
