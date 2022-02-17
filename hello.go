@@ -1,4 +1,4 @@
-rpackage main
+package main
 
 import (
 		
