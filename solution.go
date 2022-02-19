@@ -4,7 +4,8 @@ import (
 		
 	"github.com/kyokomi/emoji/v2"
 )
-func main() {
-	Message := emoji.Sprint("Hello :map:!")
-	emoji.Println(Message)
+
+func GetMessage() string {
+    return emoji.Sprint ("Hello :map:!")
+
 	}
